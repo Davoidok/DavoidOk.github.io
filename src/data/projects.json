@@ -1,0 +1,21 @@
+[
+    {
+      "title": "NREL Energy Analysis Tool",
+      "description": "Python-based tool for energy sector analysis using large datasets.",
+      "icon": "⚡",
+      "link": "#"
+    },
+    {
+      "title": "Unity High-Speed Obstacle Game",
+      "description": "C# game with custom physics and obstacle systems.",
+      "icon": "🎮",
+      "link": "#"
+    },
+    {
+      "title": "Django + Colyseus Matchmaking System",
+      "description": "Real-time competitive coding matchmaking server.",
+      "icon": "🧠",
+      "link": "#"
+    }
+  ]
+  
