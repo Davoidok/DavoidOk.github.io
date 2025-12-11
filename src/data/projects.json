@@ -46,6 +46,12 @@
       "description": "Designed a custom PCB in Fusion 360 for a multi-sensor ultrasonic system. Programmed embedded C firmware for real-time data acquisition from ultrasonic and light sensors, and developed LCD output visualization for dynamic sensor readings.",
       "icon": "📡",
       "link": "#"
-    }
+    },
+    {
+        "title": "UCF Water Fountain Finder",
+        "description": "Developed an Android Flutter app that displays all UCF water fountain locations using the Google Maps API. Implemented JWT-secured registration and login, and integrated the Flutter client with a React + ExpressJS backend for synchronized map and user data.",
+        "icon": "🐊",
+        "link": "https://4lokofridays.com"
+      }
   ]
   
