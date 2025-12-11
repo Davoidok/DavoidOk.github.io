@@ -1,8 +1,9 @@
+import "./Footer.css";
+
 export default function Footer() {
-    return (
-      <footer className="text-center py-6 text-gray-600">
-        © {new Date().getFullYear()} David A. — All Rights Reserved
-      </footer>
-    );
-  }
-  
+  return (
+    <footer className="footer">
+      © {new Date().getFullYear()} David A. — All Rights Reserved
+    </footer>
+  );
+}

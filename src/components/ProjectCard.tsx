@@ -1,28 +1,30 @@
 import { FC } from "react";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import "./ProjectCard.css";
 
 export interface ProjectCardProps {
   title: string;
   description: string;
   link: string;
+  icon?: string;
 }
 
-const ProjectCard: FC<ProjectCardProps> = ({ title, description, link }) => {
+const ProjectCard: FC<ProjectCardProps> = ({ title, description, link, icon }) => {
   return (
     <motion.a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      whileHover={{ scale: 1.03 }}
+      className="project-card"
       whileTap={{ scale: 0.98 }}
-      className="block rounded-2xl p-6 shadow-md bg-white border hover:shadow-lg transition-all cursor-pointer"
     >
-      <div className="flex justify-between items-start">
-        <h3 className="text-xl font-semibold">{title}</h3>
-        <ExternalLink className="w-5 h-5 opacity-60" />
+      <div className="card-header">
+        <div className="card-icon">{icon || "⚡"}</div>
+        <ExternalLink className="w-5 h-5 card-link-icon" />
       </div>
-      <p className="text-gray-600 mt-2">{description}</p>
+      <h3 className="card-title">{title}</h3>
+      <p className="card-description">{description}</p>
     </motion.a>
   );
 };

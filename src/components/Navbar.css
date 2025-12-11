@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-primary);
+    /* Transparent/match bg */
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+    /* Subtle gold border */
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+}
+
+.navbar-logo span {
+    color: var(--accent-gold);
+}
+
+.navbar-link {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.navbar-link:hover {
+    color: var(--accent-gold);
+}

@@ -1,7 +1,40 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  /* Black and Gold Theme Palette */
+  --bg-primary: #0a0a0a;
+  /* Rich Black */
+  --bg-secondary: #1a1a1a;
+  /* Dark Gray for cards/sections */
+  --text-primary: #eaeaea;
+  /* Off-white for main text */
+  --text-secondary: #a0a0a0;
+  /* Dimmed gray for secondary text */
+  --accent-gold: #FFD700;
+  /* Bright Gold */
+  --accent-gold-dim: #C5A000;
+  /* Dimmer Gold for borders/muted */
+
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: system-ui, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+ul {
+  list-style: none;
 }

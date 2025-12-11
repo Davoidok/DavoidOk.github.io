@@ -1,26 +1,22 @@
 import ProjectCard from "./ProjectCard";
+import projectsData from "../data/projects.json";
+import "./ProjectsSection.css";
 
 export default function ProjectsSection() {
   return (
-    <section>
-      <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2>
+    <section className="projects-section">
+      <h2 className="section-title">Projects</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <ProjectCard
-          title="MMR Matchmaking System"
-          description="Real-time MMR-based matchmaking using Django, PostgreSQL, WebSockets, and Colyseus."
-          link="https://github.com/davoidok/mmr-system"
-        />
-        <ProjectCard
-          title="Energy Modeling Tool"
-          description="Python analysis system built during NREL internship using Pandas and NumPy."
-          link="https://github.com/davoidok/energy-model"
-        />
-        <ProjectCard
-          title="Unity High-Speed Game"
-          description="C# obstacle-dodging game showcasing physics, collisions, and movement mechanics."
-          link="https://github.com/davoidok/unity-speed-game"
-        />
+      <div className="projects-grid">
+        {projectsData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+            icon={project.icon}
+          />
+        ))}
       </div>
     </section>
   );
