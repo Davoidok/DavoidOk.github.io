@@ -9,7 +9,7 @@ export default function App() {
       <Navbar />
 
       <header className="hero-section">
-        <h1 className="hero-title">David A.</h1>
+        <h1 className="hero-title">Carlos A.</h1>
         <p className="hero-subtitle">
           Software Engineer <span className="separator">·</span> Embedded Engineer
         </p>

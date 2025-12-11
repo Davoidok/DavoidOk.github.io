@@ -1,20 +1,50 @@
 [
     {
-      "title": "NREL Energy Analysis Tool",
-      "description": "Python-based tool for energy sector analysis using large datasets.",
+      "title": "CodeCrack Web Application",
+      "description": "Backend lead for a full-stack competitive coding platform. Built RESTful APIs in Python, implemented a Colyseus architecture for real-time matchmaking, integrated Django backend with PixiJS frontend, executed Python code securely using Piston, and designed modular OOP-based backend components for scalability.",
+      "icon": "💻",
+      "link": "https://github.com/iBortex/CodeCrack"
+    },
+    {
+      "title": "NREL Energy Sector Analysis Tool",
+      "description": "Developed a Python analytics tool using Pandas and NumPy to process over 5M+ energy grid data rows, connected MySQL databases for automated ingestion, conducted extensive unit testing, and implemented a binary-tree data architecture for O(log n) hierarchical analysis.",
       "icon": "⚡",
       "link": "#"
     },
     {
-      "title": "Unity High-Speed Obstacle Game",
-      "description": "C# game with custom physics and obstacle systems.",
-      "icon": "🎮",
+      "title": "Hydrogen Business Case Prize Tool (NREL Competition)",
+      "description": "Created a VBA-based modeling tool enabling CSV-to-Excel data loading and comprehensive business case simulation. Designed payback period and growth algorithms, integrated diverse datasets, and contributed to winning a national competition with $50,000 in awards.",
+      "icon": "📊",
+      "link": "https://pubs.rsc.org/en/content/articlelanding/2024/ee/d3ee02789a"
+    },
+    {
+      "title": "BNY Mellon Document Processing Platform",
+      "description": "Built a full-stack Angular + Spring Boot web application to process legal trade documents. Implemented HashMap-based metadata classification, MongoDB ingestion pipelines, RESTful API communication, CI/CD automation, and integrated with internal AI microservices.",
+      "icon": "🏦",
       "link": "#"
     },
     {
-      "title": "Django + Colyseus Matchmaking System",
-      "description": "Real-time competitive coding matchmaking server.",
-      "icon": "🧠",
+      "title": "Robot Program Website (BuildBots)",
+      "description": "Developed and maintained an Umbraco-based website for robotics programs, including updates, scheduling, and parent/student portal functionality. Supported customer communication and technical troubleshooting.",
+      "icon": "🤖",
+      "link": "#"
+    },
+    {
+      "title": "SHPE Rocket Payload Developer",
+      "description": "Designed and developed payload CONOPs for experimental rocket missions as part of SHPE's engineering team. Focused on feasibility, sensor integration, and operational planning.",
+      "icon": "🚀",
+      "link": "#"
+    },
+    {
+      "title": "Spinning LIDAR Drone",
+      "description": "Developing a drone-mounted spinning LIDAR system using ultrasonic sensors on a rotating frame. Implementing environmental mapping algorithms, closed-loop control for RPM and altitude, custom serial communication protocols, and tuning Betaflight firmware to stabilize flight during real-time sensor operations.",
+      "icon": "🛰️",
+      "link": "#"
+    },
+    {
+      "title": "Ultrasonic Distance Sensor",
+      "description": "Designed a custom PCB in Fusion 360 for a multi-sensor ultrasonic system. Programmed embedded C firmware for real-time data acquisition from ultrasonic and light sensors, and developed LCD output visualization for dynamic sensor readings.",
+      "icon": "📡",
       "link": "#"
     }
   ]
