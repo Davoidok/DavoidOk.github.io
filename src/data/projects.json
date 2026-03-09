@@ -3,7 +3,7 @@
       "title": "CodeCrack Web Application",
       "description": "Backend lead for a full-stack competitive coding platform. Built RESTful APIs in Python, implemented a Colyseus architecture for real-time matchmaking, integrated Django backend with PixiJS frontend, executed Python code securely using Piston, and designed modular OOP-based backend components for scalability.",
       "icon": "💻",
-      "link": "codecrack.io"
+      "link": "https://codecrack.io"
     },
     {
       "title": "NREL Energy Sector Analysis Tool",
